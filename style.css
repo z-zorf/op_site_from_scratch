@@ -17,7 +17,7 @@ body {
     font-size: 15px;
 }
 
-.list{
+.header.list{
     display: flex;
     justify-content: space-evenly;
     gap: 15px;
@@ -63,10 +63,17 @@ body {
     justify-content: center;
     align-items: center;
     padding: 10px;
-    font-size: 10px;
+    font-size: 18px;
+    font-style: italic;
     width: 900px;
     height: 200px;
     
+}
+
+.imglist {
+    display: flex;
+    flex-direction: column;
+    color: #1f2937;
 }
 
 button {
@@ -79,10 +86,6 @@ button {
     padding: 5px;
 }
 
-.info {
-    display: flex;
-    flex-direction: column;
-}
 
 .quote {
     display: flex;
@@ -92,4 +95,43 @@ button {
 
 .call_to_action {
     display: flex;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info.header {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+    background-color: white;
+    box-sizing: border-box;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.info_list {
+    display: flex;
+    gap: 50px;
+}
+
+.info_item {
+    display: flex;
+    flex-direction: column;
+}
+
+.info_img {
+    border: 2px solid;
+    border-color: #3882F6;
+    border-radius: 15px;
+    width: 150px;
+    height: 150px;
+}
+
+.info_text {
+    width: 150px;
+    text-align: center;
 }
