@@ -76,7 +76,7 @@ body {
     color: #1f2937;
 }
 
-button {
+.signup {
     font-size: 18px;
     color: #E5E7EB;
     background-color: #3882F6;
@@ -111,6 +111,35 @@ button {
 
 .call_to_action {
     display: flex;
+    background-color: #3882F6;
+    padding: 30px 90px 30px 70px; 
+    margin: 50px 20% 50px 20%;
+    border-radius: 10px;
+    justify-content: space-between;
+}
+
+.cta_text {
+    color: #F9FAF8;
+}
+
+.cta_text.head {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.cta_text.sub {
+    font-weight: 200;
+    font-size: 10px;
+}
+
+.signup_cta {
+    font-size: 18px;
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border: 1px solid #F9FAF8;
+    border-radius: 5px;
+    width: 100px;
+    padding: 5px;
 }
 
 .info{
